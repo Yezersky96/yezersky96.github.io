@@ -1,0 +1,46 @@
+div,
+p,
+input,
+buttom,
+form,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+}
+h2 {
+  background: green;
+  color: white;
+}
+span {
+  color: red;
+}
+
+.new {
+  background: blue;
+  width: 100px;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.block {
+  padding: 50px 30px;
+}
+
+.new-new {
+  margin-left: 80px;
+}
+
+li {
+  border: 2px solid black;
+  font-size: 30px;
+}
+
+.new-two {
+  margin-bottom: 200px;
+}
