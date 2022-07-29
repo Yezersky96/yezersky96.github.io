@@ -25,12 +25,11 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: "Open Sans", sans-serif;
     font-weight: 900;
 }
 
 .container {
-    width: 1170px;
+    width: 1238px;
     margin: 0 auto;
 }
 
@@ -45,6 +44,7 @@ h6 {
     padding-top: 62px;
     color: #fff;
     padding-bottom: 143px;
+
 }
 
 .wrapper {
@@ -54,30 +54,35 @@ h6 {
 }
 
 .offer {
-
     width: 560px;
 }
 
 .title {
+    font-family: "ubuntu", Bold, sans-serif;
+    font-size: 37px;
 
-    font-size: 35px;
 }
 
 .intro {
     margin-bottom: 44px;
     width: 370px;
+    font-size: 15px;
+
 }
 
 .btn {
     font-family: "Montserrat", sans-serif;
     background: #ffd429;
     color: black;
-    display: block;
-    width: 222px;
-    padding: 20px 0;
+    display: inline-block;
+    padding: 20px 30px;
     text-align: center;
     text-decoration: none;
     transition: all 0.5s ease;
+    border: none;
+    cursor: pointer;
+    font-family: "Montserrat", black, sans-serif;
+
 }
 
 .btn:hover {
@@ -95,8 +100,10 @@ h6 {
 }
 
 .section-title {
-    padding-left: 400px;
-    font-size: 28px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "ubuntu", Bold, sans-serif;
+
 }
 
 .skills {
@@ -108,44 +115,59 @@ h6 {
 
 .skill {
     width: 300px;
-    background: url('../img/icon1.jpg') no-repeat center top;
+    background-image: url('../img/icon1.jpg');
     padding-top: 70px;
-    margin-left: 100px;
     text-align: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
 }
 
 .skill-title {
-    font-size: 18px;
+    font-size: 15px;
+    font-family: "Ubuntu", Bold, sans-serif;
+
 }
 
 .skill-text {
     margin-top: 7px;
+    font-family: "Myriad Pro",regular,sans-serif;
+    font-size: 15px;
 }
 
 .skill-free {
-    background: url('../img/icon2.jpg') no-repeat;
+    background-image: url('../img/icon2.jpg') ;
 }
 
 .skill-change {
-    background: url(../img/icon3.jpg) no-repeat;
+    background-image: url(../img/icon3.jpg) ;
 }
 
 .mail {
     padding-top: 104px;
     padding-bottom: 102px;
     background: #ecf3f8;
-    padding-left: 500px;
-    display: flex;
     justify-content: space-between;
 }
 
+.mail .container {
+    max-width: 343px;
+}
+
+.mail .btn {
+    width: 100%;
+    margin-top: 15px;
+}
 .section-title-two {
     font-size: 30px;
-    padding-right: 60px;
+    text-align: center;
+    padding-bottom: 57px;
+    font-family: "Ubuntu", Bold, sans-serif;
+
+
 }
 
 .input {
-    width: 343px;
+    width: 100%;
     border: 1px solid #bbbbbb;
     font-size: 15px;
     padding-left: 27px;
@@ -153,23 +175,14 @@ h6 {
     height: 50px;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 15px;
 }
 
-.btn-btn {
-    width: 344px;
-    font-family: "Montserrat", sans-serif;
-    background: #ffd429;
-    color: black;
-    display: block;
-    padding: 20px 0;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.5s ease;
-    margin-top: 10px;
-    margin-left: 50px;
+.input:focus {
+    outline: none;
+    border-color:#868686;
 }
+
 
 .footer {
     padding: 63px;
@@ -180,5 +193,6 @@ h6 {
     color: #ffffff;
     font-size: 14px;
     margin: 0;
-    padding-left: 370px;
+    font-family: "Open Sans",regular,sans-serif;
+    text-align: center;
 }
