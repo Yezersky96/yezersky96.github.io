@@ -32,6 +32,7 @@ h6 {
     width: 100%;
     max-width: 1238px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
@@ -99,8 +100,10 @@ h6 {
     color: black;
 }
 
+
 .desktop {
     text-align: center;
+    width: 500px;
 }
 
 .learn {
@@ -230,9 +233,18 @@ h6 {
         width: 100%;
     }
     .desktop {
-        display: block;
-        width:550px;
-        margin: 70px auto;
+        display: none;
+    }
+    .header {
+        padding-bottom: 30px;
+    }
+    .learn {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .mail {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .skills {
         flex-direction: column;
@@ -256,6 +268,6 @@ h6 {
 
 @media screen and (max-width: 576px) {
     .container {
-        width: 90%;
+        width: 100%;
     }
 }
